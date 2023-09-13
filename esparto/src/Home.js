@@ -4,7 +4,7 @@ import SplitPane from "react-split-pane";
  {
     return ( 
         <div className="Home">
-            <h1>Welcome to Esparto</h1>
+            <h1>Welcome to Our Esparto</h1>
         </div>
         );
 } 
