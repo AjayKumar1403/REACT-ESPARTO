@@ -7,9 +7,9 @@ import './styles.css';
 function App() {
   return (
     <div className="app-container">
-      <Navbar />
-      <Home />
-      <About/>
+      <Navbar /> // Component responsible for navigation bar inside the project
+      <Home /> // Component responsible for Home page includes all the other stuff like painitings
+      <About/> // About page responsible for about page
     </div>
   
   )
