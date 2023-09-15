@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import SplitPane from "react-split-pane";
+
  export default function Home() 
  {
     return ( 

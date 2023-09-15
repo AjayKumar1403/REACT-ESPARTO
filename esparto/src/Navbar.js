@@ -3,6 +3,7 @@ export default function Navbar(){
           <a className="siteTittle" href="/" > LOGO  ESPARTO</a>
         <ul>
         <li> <a href="/">HOME</a></li>
+        <li> <a href="/aboutus">ABOUT US</a></li>
         </ul>
 
         </nav>

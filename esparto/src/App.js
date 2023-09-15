@@ -1,15 +1,19 @@
 import './App.css';
 import Navbar from './Navbar';
-import Home from './Pages/Home';
-import About from './Pages/About';
+import Home from './Home';
+import About from './About';
 import './styles.css';
 
 function App() {
   return (
     <div className="app-container">
-      <Navbar /> // Component responsible for navigation bar inside the project
-      <Home /> // Component responsible for Home page includes all the other stuff like painitings
-      <About/> // About page responsible for about page
+       {/* Component responsible for navigation bar inside the project */}
+
+      <Navbar />  
+      {/* // Component responsible for Home page includes all the other stuff like painitings   */}
+      <Home /> 
+      {/* // About page responsible for about page */}
+      <About/> 
     </div>
   
   )
