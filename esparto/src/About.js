@@ -3,7 +3,7 @@ export default function About(){
     <div>
         <h2 className="AboutHeader">
             Presenting you, one of the finest collections...
-            Worlds best paintings are found here. Open the doors to your art collection.
+            World's best paintings are found here. Open the doors to your art collection.
         </h2>
     </div>
     )
