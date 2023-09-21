@@ -8,6 +8,9 @@ export default function Navbar(){
         <li> 
           <a href="/aboutus">ABOUT US Page</a>
         </li>
+        <li> 
+          <a href="/contactus">CONTACT US</a>
+        </li>
         </ul>
 
         </nav>
