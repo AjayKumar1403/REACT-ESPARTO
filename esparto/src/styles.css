@@ -99,3 +99,8 @@ body{
   .AboutHeader{
     padding-top:75vh;
   }
+
+  .middleSection{
+    height: 160px;
+    background-color: #bfb7b7;
+  }
