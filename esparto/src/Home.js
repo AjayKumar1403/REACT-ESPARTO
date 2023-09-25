@@ -59,9 +59,7 @@ import img3 from '../src/assets/image4.jpg';
                
             </SplitPane>
 
-            <div className="middleSection">
-                {/* All the features go here  */}
-            </div>
+           
         </div>
 
         
