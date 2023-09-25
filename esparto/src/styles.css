@@ -104,3 +104,7 @@ body{
     height: 160px;
     background-color: #bfb7b7;
   }
+  .homeHeader{
+    background-color: #555;
+    display :flex;
+  }

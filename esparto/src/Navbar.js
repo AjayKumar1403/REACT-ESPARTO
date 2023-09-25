@@ -3,10 +3,13 @@ export default function Navbar(){
           <a className="siteTittle" href="/" >LOGO  ESPARTO</a>
         <ul>
         <li> 
-          <a href="/">HOME</a>
+          <a href="/">HOME Page</a>
         </li>
         <li> 
-          <a href="/aboutus">ABOUT US</a>
+          <a href="/aboutus">ABOUT US Page</a>
+        </li>
+        <li> 
+          <a href="/contactus">CONTACT US</a>
         </li>
         </ul>
 

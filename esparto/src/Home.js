@@ -25,7 +25,7 @@ import img3 from '../src/assets/image4.jpg';
     return ( 
         <div className="Home">
             
-            <h2>Welcome to Our Esparto!</h2> 
+            <h2>Welcome to Our <b>Esparto!</b></h2> 
             <h5>A digital platform for Art Gallery is here.</h5>
             <p>
                 We can also have a major look in detail with the Artist Name, 
