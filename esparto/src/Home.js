@@ -16,6 +16,12 @@ import img3 from '../src/assets/image4.jpg';
 
     const onClickForward = () => {
         
+        if (index + 1 === imgList.length) {
+            setIndex(0);
+        } else {
+            setIndex(index + 1);
+        }
+        
     };
 
     const onClickBackward = () => {
