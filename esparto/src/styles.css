@@ -105,3 +105,8 @@ body{
     background-color: #555;
     display :flex;
   }
+
+  .middleSection{
+    height: 160px;
+    background-color: #bfb7b7;
+  }
