@@ -13,6 +13,11 @@ import img3 from '../src/assets/image4.jpg';
     const [index, setIndex] = useState(0);
 
     const onClickForward = () => {
+        if (index + 1 === imgList.length) {
+            setIndex(0);
+        } else {
+            setIndex(index + 1);
+        }
         
     };
 
