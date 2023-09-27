@@ -16,8 +16,8 @@ import img3 from '../src/assets/image4.jpg';
         if (index + 1 === imgList.length) {
             setIndex(0);
         } else {
-            setIndex(index + 1);
-        }
+            setIndex(index+ 1);
+        }
         
     };
 
