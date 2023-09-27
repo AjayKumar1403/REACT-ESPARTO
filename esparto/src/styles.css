@@ -107,6 +107,7 @@ body{
   }
 
   .middleSection{
+    margin-top: 600px;
     height: 160px;
     background-color: #bfb7b7;
   }
