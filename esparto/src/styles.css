@@ -111,3 +111,8 @@ body{
     height: 160px;
     background-color: #bfb7b7;
   }
+
+  .homeImages{
+    display: flex;
+
+  }

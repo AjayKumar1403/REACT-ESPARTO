@@ -65,9 +65,18 @@ import img3 from '../src/assets/image4.jpg';
         </div>
         <div className="middleSection">
                 {/* All the features go here  */}
-            </div>
+        </div>
+                    <div className="homeImages">
+
+                        <img src={require("../src/assets/home.jpg")}></img>
+                        <img src={require("../src/assets/image2.jpg")}></img>
+                        <img src={require("../src/assets/image3.jpg")}></img>
+
+
+                    </div>
+                    
         </div>
         );
         
         
-} 
+}
