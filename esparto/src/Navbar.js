@@ -12,6 +12,5 @@ export default function Navbar(){
           <a href="/contactus">CONTACT US</a>
         </li>
         </ul>
-
         </nav>
 }
