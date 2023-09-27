@@ -17,7 +17,11 @@ import img3 from '../src/assets/image4.jpg';
     };
 
     const onClickBackward = () => {
-       
+        if (index - 1 === -1) {
+            setIndex(imgList.length - 1);
+        } else {
+            setIndex(index - 1);
+        }
     };
   
     return ( 
