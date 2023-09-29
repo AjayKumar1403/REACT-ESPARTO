@@ -127,3 +127,9 @@ body{
     color: #0088ff;
     text-decoration: none;
   }
+  
+  headerInfo{
+    background-color: black;
+    text-align: end;
+    padding: 10px;
+  }
