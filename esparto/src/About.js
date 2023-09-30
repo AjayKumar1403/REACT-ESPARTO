@@ -28,6 +28,16 @@ export default function About(){
             <p>CSS</p>
             <p>Java</p>
             <p>MySql</p>
+
+            <p>GitHub Username: Sailaja Lakkakula</p>
+
+            <p>GitHub profile as QA Engineer</p>
+
+            <p>Strengths</p>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>Java</p>
+            <p>MySql</p>
    
     </div>
     )
