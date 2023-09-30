@@ -19,6 +19,15 @@ export default function About(){
             <p>React JS</p>
             <p>Node JS</p>
 
+            <p>GitHub Username: ManojThella</p>
+
+            <p>GitHub profile</p>
+
+            <p>Strengths</p>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>Java</p>
+            <p>MySql</p>
    
     </div>
     )
