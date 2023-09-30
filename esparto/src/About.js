@@ -28,6 +28,20 @@ export default function About(){
             <p>CSS</p>
             <p>Java</p>
             <p>MySql</p>
+
+            <p>GitHub Username: SahithiKasarapu</p>
+
+            <p>GitHub profile</p>
+
+            <p>Strengths</p>
+            <p>C#</p>
+            <p>ASP.NET</p>
+            <p>MVC</p>
+            <p>JavaScript</p>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>jQuery</p>
+            <p>Data structures</p>
    
     </div>
     )
