@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import Home from './Home';
 import About from './About';
 import './styles.css';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <Home /> 
       {/* // About page responsible for about page */}
       <About/> 
+      {/* // Footer content goes here */}
+      <Footer />
     </div>
   
   )
