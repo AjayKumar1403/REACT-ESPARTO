@@ -38,7 +38,46 @@ export default function About(){
             <p>CSS</p>
             <p>Java</p>
             <p>MySql</p>
-   
+
+            <br/>
+            <hr/>
+            <p><b>GitHub Username</b>: Sai-1305</p>
+            <p>
+                <a href="https://github.com/Sai-1305">GitHub profile</a>
+            </p>
+            <p><b>Strengths</b>:</p>
+            <p>
+                <ul>
+                    <li>
+                        <p>Java</p>
+                    </li>
+                    <li>
+                        <p>Python</p>
+                    </li>
+                    <li>
+                        <p>Swift</p>
+                    </li>
+                    <li>
+                        <p>MySQL</p>
+                    </li>
+                    <li>
+                        <p>PHP</p>
+                    </li>
+                    <li>
+                        <p>HTML</p>
+                    </li>
+                    <li>
+                        <p>CSS</p>
+                    </li>
+                    <li>
+                        <p>Functional Testing</p>
+                    </li>
+                    <li>
+                        <p>UI Testing</p>
+                    </li>
+                </ul>
+            </p>
+            
     </div>
     )
 }
