@@ -50,6 +50,23 @@ export default function About(){
             <p>MySql</p>
             <p>JavaScript</p>
             <p>Tableau</p>
+
+           <p>GitHub Username: SahithiKasarapu</p> 
+
+            <p>
+                <a href="https://github.com/SahithiKasarapu">GitHub profile</a>
+            </p>
+
+            <p>Strengths</p>
+            <p>C#</p>
+            <p>ASP.NET</p>
+            <p>MVC</p>
+            <p>JavaScript</p>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>jQuery</p>
+            <p>Data structures</p>
+
    
             <br/>
             <hr/>
