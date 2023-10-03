@@ -8,8 +8,8 @@ export default function About(){
 
             <h2>About the Developers</h2>
             <p>GitHub Username: AjayKumar1403</p>
-
-            <p>GitHub profile</p>
+            {/* adding the github profile link */}
+            <p> <a href="https://github.com/AjayKumar1403">GitHub profile</a></p>
 
             <p>Strengths</p>
             <p>HTML</p>
@@ -21,7 +21,7 @@ export default function About(){
 
             <p>GitHub Username: ManojThella</p>
 
-            <p>GitHub profile</p>
+            <p><a href="https://github.com/ManojThella">GitHub profile</a></p>
 
             <p>Strengths</p>
             <p>HTML</p>
@@ -43,7 +43,7 @@ export default function About(){
 
             <p>GitHub Username: Varsha Kalvakuntla</p>
 
-            <p>GitHub profile of Varsha</p>
+            <p><a href="https://github.com/Varshakalva">GitHub profile</a></p>
 
             <p>Strengths</p>
             <p>HTML</p>
@@ -52,6 +52,23 @@ export default function About(){
             <p>MySql</p>
             <p>JavaScript</p>
             <p>Tableau</p>
+
+           <p>GitHub Username: SahithiKasarapu</p> 
+
+            <p>
+                <a href="https://github.com/SahithiKasarapu">GitHub profile</a>
+            </p>
+
+            <p>Strengths</p>
+            <p>C#</p>
+            <p>ASP.NET</p>
+            <p>MVC</p>
+            <p>JavaScript</p>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>jQuery</p>
+            <p>Data structures</p>
+
    
             <br/>
             <hr/>

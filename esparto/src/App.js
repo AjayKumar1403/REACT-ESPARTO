@@ -3,7 +3,8 @@ import Navbar from './Navbar';
 import Home from './Home';
 import About from './About';
 import './styles.css';
-import Footer from './Footer';
+import Footer from './components/Footer';
+import ContactUs from './components/ContactUs';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
       <About/> 
       {/* // Footer content goes here */}
       <Footer />
+      {/* // Contact details are included in ContactUs page*/}
+      <ContactUs />
     </div>
   
   )
