@@ -8,8 +8,8 @@ export default function About(){
 
             <h2>About the Developers</h2>
             <p>GitHub Username: AjayKumar1403</p>
-
-            <p>GitHub profile</p>
+            {/* adding the github profile link */}
+            <p> <a href="https://github.com/AjayKumar1403">GitHub profile</a></p>
 
             <p>Strengths</p>
             <p>HTML</p>
