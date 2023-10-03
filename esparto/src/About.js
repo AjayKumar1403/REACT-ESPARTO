@@ -21,7 +21,7 @@ export default function About(){
 
             <p>GitHub Username: ManojThella</p>
 
-            <p>GitHub profile</p>
+            <p><a href="https://github.com/ManojThella">GitHub profile</a></p>
 
             <p>Strengths</p>
             <p>HTML</p>
