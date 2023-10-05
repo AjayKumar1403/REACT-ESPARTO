@@ -14,9 +14,9 @@ function Login() {
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");    
  
-    useEffect
+    
     useEffect(()=>{
-        const token = localStorage.getItem('token');
+        const token =w localStorage.getItem('token');
         if (token) {
             axios.get(${process.env.REACT_APP_BACKEND_URL}/, { headers : {
                 Authorization: token,
