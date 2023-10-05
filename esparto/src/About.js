@@ -31,7 +31,9 @@ export default function About(){
 
             <p>GitHub Username: Sailaja Lakkakula</p>
 
-            <p>GitHub profile as QA Engineer</p>
+            <p>
+                <a href="https://github.com/sailajalakkakula">GitHub profile as QA Engineer</a>
+            </p>
 
             <p>Strengths</p>
             <p>HTML</p>
