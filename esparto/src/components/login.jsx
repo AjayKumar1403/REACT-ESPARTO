@@ -30,7 +30,9 @@ function Login() {
  //Sailaja
    
 
-//Sahithi
+function RegisterClick() {
+        navigate('/register');
+    }
     return <div className="limiter">
         <ToastContainer/>
     <div className="container-login100">
