@@ -13,7 +13,19 @@ function Login() {
     const navigate = useNavigate();
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");    
- //Peepa
+ 
+    useEffect
+    useEffect(()=>{
+        const token = localStorage.getItem('token');
+        if (token) {
+            axios.get(${process.env.REACT_APP_BACKEND_URL}/, { headers : {
+                Authorization: token,
+            }}).then(res => {
+                navigate('/');
+            }).catch( err => {
+            })
+        }
+    }, [])
 
  //Sailaja
    
