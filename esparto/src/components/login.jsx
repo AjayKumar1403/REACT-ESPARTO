@@ -24,8 +24,8 @@ function Login() {
                 navigate('/');
             }).catch( err => {
             })
-        }
-    }, [])
+        }
+},[])
 
  //Sailaja
    
@@ -42,8 +42,10 @@ function RegisterClick() {
                     Login
                 </span>
 
-               {/* // Thellaaaa */}
-
+                <div className="wrap-input100 validate-input m-b-16" data-validate="Please enter username">
+                    <input className="input100" type="text" name="username" placeholder="Username" onChange={event => setUsername(event.target.value)} value={username} />
+                    <span className="focus-input100"></span>
+                </div>
 
                <div className="wrap-input100 validate-input" data-validate = "Please enter password">
                     <input className="input100" type="password" name="password" placeholder="Password" onChange={event => setPassword(event.target.value)} value={password}/>
