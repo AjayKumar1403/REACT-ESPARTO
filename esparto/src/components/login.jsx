@@ -16,7 +16,7 @@ function Login() {
  
     
     useEffect(()=>{
-        const token =w localStorage.getItem('token');
+        const token = localStorage.getItem('token');
         if (token) {
             axios.get(${process.env.REACT_APP_BACKEND_URL}/, { headers : {
                 Authorization: token,
@@ -45,7 +45,10 @@ function RegisterClick() {
                {/* // Thellaaaa */}
 
 
-               {/* //Sai Vishnu */}
+               <div className="wrap-input100 validate-input" data-validate = "Please enter password">
+                    <input className="input100" type="password" name="password" placeholder="Password" onChange={event => setPassword(event.target.value)} value={password}/>
+                    <span className="focus-input100"></span>
+                </div>
 
                
                 <div>
