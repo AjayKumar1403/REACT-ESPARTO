@@ -27,7 +27,42 @@ function Login() {
         }
 },[])
 
- //Sailaja
+const LogInClick = () => {
+
+    axios.post(`${process.env.REACT_APP_BACKEND_URL}/login`, {username, password}).then(async res => {
+        if(!res.data.success){
+            toast.error(`${res.data.message}`, {
+                position: "top-center",
+                autoClose: 3000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "light",
+                });
+            navigate('/login');
+        }
+        else
+        {
+            localStorage.setItem('token', res.data.token)
+            navigate('/');
+        }
+    }).catch(async err => {
+        toast.error(`${err}`, {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+        });
+    })
+}
+
+
    
 
 function RegisterClick() {
