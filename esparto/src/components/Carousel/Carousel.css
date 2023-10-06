@@ -1,0 +1,28 @@
+/* YourCarouselComponent.css  */
+.carousel-item img {
+  max-width: 90%; /* Set the maximum width of the images to 100% */
+  max-height: 700px;
+  height: auto;
+  margin: 0 auto; /* Center the images horizontally */
+}
+
+/* Carousel.css */
+.custom-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional text shadow for better visibility */
+}
+
+.custom-caption h3 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.custom-caption p {
+  font-size: 25px;
+  margin: 0;
+}

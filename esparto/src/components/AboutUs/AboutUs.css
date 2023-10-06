@@ -1,0 +1,33 @@
+/* AboutUs.css */
+.about-us-container {
+  padding: 50px;
+  text-align: left;
+}
+
+.content-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.side-image {
+  max-width: 500px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.text-content {
+  flex: 1;
+}
+
+.about-us-container h2,
+.about-us-container h3 {
+  color: #333;
+}
+
+.about-us-container p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #666;
+}

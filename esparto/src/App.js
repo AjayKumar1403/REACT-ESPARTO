@@ -1,27 +1,18 @@
 import './App.css';
-import Navbar from './Navbar';
-import Home from './Home';
-import About from './About';
-import './styles.css';
-import Footer from './components/Footer';
-import ContactUs from './components/ContactUs';
-
+import Login from './components/Login/Login';
+import Register from './components/Register/Register';
+import Home from './components/Home/home';
+import { Route, Routes } from 'react-router-dom';
 function App() {
   return (
-    <div className="app-container">
-       {/* Component responsible for navigation bar inside the project */}
-
-      <Navbar />  
-      {/* // Component responsible for Home page includes all the other stuff like painitings   */}
-      <Home /> 
-      {/* // About page responsible for about page */}
-      <About/> 
-      {/* // Footer content goes here */}
-      <Footer />
-      {/* // Contact details are included in ContactUs page*/}
-      <ContactUs />
+    <div className="App">
+      <Routes>
+        <Route exact path="/" Component={Home} />
+        <Route exact path="/login" Component={Login} />
+        <Route exact path="/register" Component={Register} />
+      </Routes>
     </div>
-  
-  )
+  );
 }
+
 export default App;
