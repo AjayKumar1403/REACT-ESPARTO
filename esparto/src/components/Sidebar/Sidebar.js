@@ -19,9 +19,16 @@ const Sidebar = () => {
           <CDBSidebarMenu>
             {/* //Sahithi */}
             {/* //Sai Vishnu */}
-           {/* //Manoj Thella */}
-          </CDBSidebarMenu>
-        </CDBSidebarContent>
+
+            <NavLink exact to="/analytics" activeClassName="activeClicked">
+              <CDBSidebarMenuItem icon="chart-line">Analytics</CDBSidebarMenuItem>
+              </NavLink>
+              
+              <NavLink exact to="/hero404" target="_blank" activeClassName="activeClicked">
+                <CDBSidebarMenuItem icon="exclamation-circle">404 page</CDBSidebarMenuItem>
+                </NavLink>
+                </CDBSidebarMenu>
+              </CDBSidebarContent>
 
         {/* //Sailaja */}
       </CDBSidebar>
