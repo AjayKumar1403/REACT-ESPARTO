@@ -18,7 +18,12 @@ const Sidebar = () => {
         <CDBSidebarContent className="sidebar-content">
           <CDBSidebarMenu>
             {/* //Sahithi */}
-            {/* //Sai Vishnu */}
+            <NavLink exact to="/tables" activeClassName="activeClicked">
+              <CDBSidebarMenuItem icon="table">Tables</CDBSidebarMenuItem>
+            </NavLink>
+            <NavLink exact to="/profile" activeClassName="activeClicked">
+              <CDBSidebarMenuItem icon="user">Profile page</CDBSidebarMenuItem>
+            </NavLink>
 
             <NavLink exact to="/analytics" activeClassName="activeClicked">
               <CDBSidebarMenuItem icon="chart-line">Analytics</CDBSidebarMenuItem>
