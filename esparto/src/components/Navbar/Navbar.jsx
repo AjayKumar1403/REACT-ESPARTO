@@ -19,6 +19,12 @@ const Navbar = () => {
         <Link to={'/register'}>
           <h1>Register</h1>
         </Link>
+        <Link to={'/sidebar'}>
+          <h1>Sidebar</h1>
+        </Link>
+        <Link to={'/userProfile'}>
+          <h1>User Profile</h1>
+        </Link>
       </div>
     </div>
   );
