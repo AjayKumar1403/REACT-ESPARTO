@@ -6,7 +6,14 @@ var UserProfile = React.createClass({
     
     
     ,
-	//Varsha
+	render: function() {
+		return(
+			<div className="App">
+				<Image src={this.props.image} />
+				<Profile person={this.props.person} quote={this.props.quote} />
+			</div>
+		);
+	}
 });
 
 //Sailaja
