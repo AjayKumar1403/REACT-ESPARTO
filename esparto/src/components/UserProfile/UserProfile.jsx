@@ -5,7 +5,7 @@ var UserProfile = React.createClass({
     
     
     
-    ,
+    
 	render: function() {
 		return(
 			<div className="App">
@@ -19,7 +19,19 @@ var UserProfile = React.createClass({
 //Sailaja
 
 var Profile = React.createClass({
-	//Thella
+	render: function() {
+		return (
+			<div className="Profile">
+				<h1 className="Name">{this.props.person.name}</h1>
+				<p className="Bio">{this.props.person.biography}</p>
+				<div className="Quote">
+					<blockquote>&ldquo; {this.props.quote.content} &rdquo;</blockquote>
+					<div className="byline">&mdash; {this.props.quote.source}</div>
+				</div>
+				
+			</div>
+		);
+	}
 });
 
 ReactDOM.render(<UserProfile/>,document.getElementById('app'));
