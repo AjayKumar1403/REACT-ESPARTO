@@ -25,7 +25,13 @@ var UserProfile = React.createClass({
 	}
 });
 
-//Sailaja
+var Image = React.createClass({
+	render: function() {
+		return (
+			<div className="Image" style={{backgroundImage: 'url(' + this.props.src + ')'}}></div>
+		);
+	}
+});
 
 var Profile = React.createClass({
 	render: function() {
