@@ -1,13 +1,10 @@
 import '../Home/home.css';
-import NavBar from '../Navbar/Navbar';
 import Slides from '../Carousel/Carousel';
 import Footer from '../Footer/Footer';
 import AboutUs from '../AboutUs/AboutUs';
 function Home() {
   return (
-    <div>
-      <NavBar />
-      <br />
+    <div className="home">
       <Slides />
       <br></br>
       <AboutUs />
