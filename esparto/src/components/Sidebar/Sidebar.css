@@ -1,0 +1,7 @@
+.sidebar {
+    width: 200px; /* Set the width of the sidebar according to your design */
+    height: auto; /* Set the height of the sidebar to cover the entire viewport height */
+    background-color: #f0f0f0; /* Set the background color of the sidebar */
+    float: left; /* Float the sidebar to the left */
+  }
+  
