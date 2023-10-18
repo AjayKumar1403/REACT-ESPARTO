@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
-/* //Varsha */
+*{
+  margin: 0px;
+  padding:0px;
+}
+
+body {
+  font-family: 'Exo',sans-serif;
+}
+
+
+
 
 .context {
   width: 100%;
@@ -11,7 +21,7 @@
 .context h1 {
   text-align: center;
   color: #fff;
-  font-size: 50px;
+  font-size:50px;
 }
 
 /* Manoj Thella */
