@@ -23,7 +23,7 @@ const Sidebar = () => {
               className="text-decoration-none"
               style={{ color: 'inherit' }}
             >
-              Sidebar
+              Menu
             </a>
           </CDBSidebarHeader>
         }
