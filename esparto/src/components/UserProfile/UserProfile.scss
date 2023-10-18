@@ -1,5 +1,18 @@
 @import 'https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto';
 
+
+.context {
+	width: 100%;
+	position: absolute;
+	top: 15vh;
+  }
+  
+  .context h1 {
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+  }
+
 // Colors
 $spacecadet: #2C2C54;
 $jazzberryjam: #A40E4C;
