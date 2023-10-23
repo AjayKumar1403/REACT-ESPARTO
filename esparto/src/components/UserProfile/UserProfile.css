@@ -1,12 +1,78 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
-/* //Varsha */
+*{
+  margin: 0px;
+  padding:0px;
+}
 
-/* Sailaja */
+body {
+  font-family: 'Exo',sans-serif;
+}
 
-/* Manoj Thella */
-/* Sahithi */
-/* Vishnu */
+
+
+
+.context {
+  width: 100%;
+  position: absolute;
+  top: 15vh;
+}
+
+.context h1 {
+  text-align: center;
+  color: #fff;
+  font-size:50px;
+}
+
+.area {
+  background: #4e54c8;
+  background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+  width: 100%;
+  height: 100vh;
+}
+
+.circles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow:hidden;
+}
+
+.circles li {
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  animation: animate 25s linear infinite;
+  bottom: -150px;
+}
+
+.circles li:nth-child(1) {
+  left: 25%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+}
+
+.circles li:nth-child(2) {
+  left: 10%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 2s;
+  animation-duration: 12s;
+}
+
+.circles li:nth-child(3) {
+  left: 70%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 4s;
+}
+
 .circles li:nth-child(4) {
   left: 40%;
   width: 60px;
