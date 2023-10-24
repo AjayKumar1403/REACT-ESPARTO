@@ -1,0 +1,11 @@
+/* //Varsha */
+  
+  .collection-item {
+    margin: 0 30px;
+  }
+  
+  .collection-image {
+    width: 100px; /* Set the width of the images */
+    height: auto; /* Maintain aspect ratio */
+  }
+  

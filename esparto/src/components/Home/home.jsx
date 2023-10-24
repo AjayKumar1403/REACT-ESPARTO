@@ -1,12 +1,17 @@
 import '../Home/home.css';
-import Slides from '../Carousel/Carousel';
+import Carousel from '../Carousel/Carousel';
 import Footer from '../Footer/Footer';
 import AboutUs from '../AboutUs/AboutUs';
+import CollectionsComponent from '../Collections/Collections';
+import WhatsNewComponent from '../Whatsnew/Whatsnew';
 function Home() {
   return (
     <div className="home">
-      <Slides />
+      <Carousel />
       <br></br>
+      <CollectionsComponent />
+      <br></br>
+      <WhatsNewComponent />
       <AboutUs />
       <Footer />
     </div>
