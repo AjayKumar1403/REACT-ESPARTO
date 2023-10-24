@@ -6,7 +6,13 @@ const WhatsNewComponent = () => {
     <div className="whats-new-container">
       <h2>What's New</h2>
       <div className="whats-new-content">
-        {/* //Vishnu */}
+        <div className="whats-new-item">
+            <h3>New Artworks</h3>
+            <p>
+              Explore our latest collection of stunning artworks created by
+              talented artists.
+            </p>
+        </div>
         <div className="whats-new-item">
           <h3>Featured Artists</h3>
           <p>
