@@ -14,7 +14,13 @@ const WhatsNewComponent = () => {
             styles and techniques.
           </p>
         </div>
-        {/* //Thella */}
+        <div className="whats-new-item">
+          <h3>Exciting Features</h3>
+          <p>
+            Check out our new interactive tools and features designed to enhance
+            your art experience.
+          </p>
+          </div>
         {/* Add more items related to new features or updates */}
       </div>
     </div>
