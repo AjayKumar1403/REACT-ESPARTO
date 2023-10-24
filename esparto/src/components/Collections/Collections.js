@@ -2,7 +2,13 @@ import React from 'react';
 import './Collections.css'; // Import the CSS file for your component
 
 const CollectionsComponent = () => {
- //Sahithi
+  const collections = [
+    { category: 'Paintings', image: 'painting.jpg' },
+    { category: 'Photography', image: 'photography.jpg' },
+    { category: 'Collage', image: 'collage.png' },
+    { category: 'Sculpture', image: 'sculpture.png' },
+    { category: 'Drawings', image: 'drawings.png' },
+  ];
 
   return (
     <div className="collections-container">
