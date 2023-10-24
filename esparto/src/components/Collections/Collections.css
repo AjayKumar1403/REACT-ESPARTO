@@ -1,4 +1,16 @@
-/* //Varsha */
+
+.collections-container {
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+}
+
+.collections-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  }
   
   .collection-item {
     margin: 0 30px;
