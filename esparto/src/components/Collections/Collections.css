@@ -1,23 +1,47 @@
-
+/* Collections styles */
 .collections-container {
   text-align: center;
-  margin-top: 20px;
-  color: white;
+  margin: 20px;
 }
 
 .collections-list {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  }
-  
-  .collection-item {
-    margin: 0 30px;
-  }
-  
-  .collection-image {
-    width: 100px; /* Set the width of the images */
-    height: auto; /* Maintain aspect ratio */
-  }
-  
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.collection-item {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.collection-item:hover {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.collection-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.collection-item-link {
+  text-decoration: none; /* Remove underlines */
+}
+
+.collection-item-link h3 {
+  color: #fff; /* Change the link color to white */
+}
+
+.collection-item-link:hover h3 {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+.collection-item:hover img {
+  transform: scale(1.1); /* Scale the image on hover */
+}
