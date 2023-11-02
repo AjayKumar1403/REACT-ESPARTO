@@ -1,7 +1,4 @@
-<<<<<<< Updated upstream
 /* Collections styles */
-=======
->>>>>>> Stashed changes
 .collections-container {
   text-align: center;
   margin: 20px;
@@ -9,7 +6,6 @@
 
 .collections-list {
   display: flex;
-<<<<<<< Updated upstream
   justify-content: space-around;
   flex-wrap: wrap;
 }
@@ -49,18 +45,3 @@
 .collection-item:hover img {
   transform: scale(1.1); /* Scale the image on hover */
 }
-=======
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.collection-item {
-  margin: 0 30px;
-}
-
-.collection-image {
-  width: 100px; /* Set the width of the images */
-  height: auto; /* Maintain aspect ratio */
-}
->>>>>>> Stashed changes
