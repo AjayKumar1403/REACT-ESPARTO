@@ -1,0 +1,23 @@
+.featured-artists-container {
+    padding: 20px;
+  }
+  
+  .artists-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .artist-item {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .artist-image {
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px; /* Add border-radius for rounded corners if desired */
+  }
+  
+  /* Add additional styles as needed */
