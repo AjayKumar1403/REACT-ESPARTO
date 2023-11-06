@@ -32,11 +32,7 @@ const FeaturedArtists = () => {
       <div className="artists-list">
         {artistsData.map((artist, index) => (
           <div className="artist-item" key={index}>
-            <img
-              src={/${artist.imageUrl}}
-              alt={artist.name}
-              className="artist-image"
-            />
+           
             <h3>{artist.name}</h3>
             <p>{artist.bio}</p>
           </div>
