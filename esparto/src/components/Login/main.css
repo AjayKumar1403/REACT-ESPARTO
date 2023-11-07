@@ -107,3 +107,22 @@
 .txt3:hover {
   color: #666;
 }
+
+/* Vishnu */
+.login100-form {
+  position: relative;
+  width: 350px;
+  background: #24fff8;
+  padding: 0%;
+}
+
+/* Vishnu */
+.input100 {
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  color: rgb(80, 15, 81);
+  line-height: 1.5;
+  padding: 20px 0;
+  width: 100%;
+}
