@@ -165,3 +165,12 @@ body {
   padding: 5%;
   background-color: aliceblue;
 }
+
+/* Vishnu */
+.circles {
+  position: absolute;
+  top: 10;
+  left: 10;
+  right: 10;
+  height: 100vh;
+}
