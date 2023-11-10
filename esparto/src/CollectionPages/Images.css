@@ -1,0 +1,14 @@
+.img-style{
+    height: 100px;
+    width: 100px;
+    border: 5px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+/* Vishnu */
+.img-style{
+    background: #e811a1;
+    background: -webkit-linear-gradient(to left, #fb8fdb, #fd008f);
+    float: left;
+}
