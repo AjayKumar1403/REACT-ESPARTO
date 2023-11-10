@@ -43,7 +43,7 @@ const paintingsData = [
     imageUrl: 'painting02.png', // Add the URL to the painting image
   },
   {
-    id: 1,
+    id: 6,
     title: 'A village in my countryside',
     artist: 'Pol Ledent',
     price: '$1,460',
@@ -51,7 +51,7 @@ const paintingsData = [
     imageUrl: 'painting05.png', // Add the URL to the painting image
   },
   {
-    id: 2,
+    id: 7,
     title: 'Surfers',
     artist: 'Agnieszka Kozień',
     price: '$845',
@@ -59,7 +59,7 @@ const paintingsData = [
     imageUrl: 'painting06.png', // Add the URL to the painting image
   },
   {
-    id: 3,
+    id: 8,
     title: 'Chasing Dreams',
     artist: 'Michael Vincent Manalo',
     price: '$730',
@@ -67,7 +67,7 @@ const paintingsData = [
     imageUrl: 'painting01.png', // Add the URL to the painting image
   },
   {
-    id: 4,
+    id: 9,
     title: 'Liptovska Mara - goal',
     artist: 'KAROLINA ŚWIDECKA',
     price: '$3,410',
