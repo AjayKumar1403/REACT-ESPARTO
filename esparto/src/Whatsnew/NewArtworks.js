@@ -2,10 +2,10 @@ import React from 'react';
 import './NewArtworks.css'; // Import the CSS file for NewArtworksComponent
 
 const artworksData = [
-    // Add artwork objects as needed
   { title: 'Artwork 1', artist: 'Artist 1', imageUrl: 'img2.jpg' },
   { title: 'Artwork 2', artist: 'Artist 2', imageUrl: 'img3.jpg' },
   { title: 'Artwork 3', artist: 'Artist 3', imageUrl: 'img5.jpg' },
+  // Add more artwork objects as needed
 ];
 
 const NewArtworks = () => {

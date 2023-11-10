@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   padding: 30px;
-  background-color: #d1dee7;
+  background-color: #e8d2d2;
   color: #fff;
   align-items: center; /* Center vertically */
 }
@@ -25,6 +25,7 @@
 
 .appName {
   margin: 0;
+  margin-left: 125px;
   font-size: 24px;
 }
 

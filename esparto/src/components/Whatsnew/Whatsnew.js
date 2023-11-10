@@ -1,33 +1,42 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './Whatsnew.css'; // Import the CSS file for WhatsNewComponent
 
 const WhatsNewComponent = () => {
+  const links = [
+    {
+      label: 'New Artworks',
+      para: 'Explore our latest collection of stunning artworks created by talented artists.',
+      link: '/new-artworks',
+    },
+    {
+      label: 'Featured Artists',
+      para: 'Meet the artists behind the masterpieces and discover their unique styles and techniques.',
+      link: '/featured-artists',
+    },
+    {
+      label: 'Exciting Features',
+      para: 'Check out our new interactive tools and features designed to enhance your art experience.',
+      link: '/exciting-features',
+    },
+    // Add more navigation links as needed
+  ];
+
   return (
     <div className="whats-new-container">
       <h2>What's New</h2>
       <div className="whats-new-content">
-        <div className="whats-new-item">
-            <h3>New Artworks</h3>
+        {links.map((link, index) => (
+          <div className="whats-new-item" key={index}>
+            <NavLink to={link.link} className="nav-link">
+              <h3>{link.label}</h3>
+              <p>{link.para}</p>
+            </NavLink>
             <p>
-              Explore our latest collection of stunning artworks created by
-              talented artists.
+              {/* You can add relevant content for each navigation link here */}
             </p>
-        </div>
-        <div className="whats-new-item">
-          <h3>Featured Artists</h3>
-          <p>
-            Meet the artists behind the masterpieces and discover their unique
-            styles and techniques.
-          </p>
-        </div>
-        <div className="whats-new-item">
-          <h3>Exciting Features</h3>
-          <p>
-            Check out our new interactive tools and features designed to enhance
-            your art experience.
-          </p>
           </div>
-        {/* Add more items related to new features or updates */}
+        ))}
       </div>
     </div>
   );

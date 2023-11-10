@@ -9,7 +9,7 @@ function Login() {
   const [password, setPassword] = useState('');
 
   const handleLogin = () => {
-    navigate('/');
+    navigate('/home');
   };
 
   const handleRegisterClick = () => {

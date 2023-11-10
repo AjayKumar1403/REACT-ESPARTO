@@ -47,7 +47,10 @@ export default function Footer() {
                 ESPARTA
               </h6>
               <p>
-              "Embark on a journey with ESPARTA — a platform where art knows no bounds. Explore a diverse world of creativity, connect with global artists, and collect masterpieces that speak to your imagination."
+                "Embark on a journey with ESPARTA — a platform where art knows
+                no bounds. Explore a diverse world of creativity, connect with
+                global artists, and collect masterpieces that speak to your
+                imagination."
               </p>
             </MDBCol>
 

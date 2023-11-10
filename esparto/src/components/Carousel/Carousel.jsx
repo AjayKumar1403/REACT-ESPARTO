@@ -7,7 +7,7 @@ const YourCarouselComponent = () => {
   return (
     <Carousel>
       <Carousel.Item>
-        <img className="d-block w-100" src="./img5.jpg" alt="First slide" />
+        <img className="d-block w-100" src="./img.jpg" alt="First slide" />
         <Carousel.Caption className="custom-caption">
           <h3>
             Artistry Unleashed: ESPARTA, Where Creators Connect with Collectors
@@ -20,7 +20,7 @@ const YourCarouselComponent = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src="./img7.jpg" alt="Second slide" />
+        <img className="d-block w-100" src="./img.jpg" alt="Second slide" />
         <Carousel.Caption className="custom-caption">
           <h3>
             Explore, Connect, Collect: Your Gateway to a Global Art Community

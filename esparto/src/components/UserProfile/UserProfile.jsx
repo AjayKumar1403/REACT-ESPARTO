@@ -5,11 +5,11 @@ import { useNavigate } from 'react-router-dom';
 function UserProfile() {
   const navigate = useNavigate();
   function handleSubmit() {
-    navigate('/');
+    navigate('/home');
   }
   return (
     <div>
-      {/* <div class="area">
+      <div class="area">
         <ul class="circles">
           <li></li>
           <li></li>
@@ -22,9 +22,9 @@ function UserProfile() {
           <li></li>
           <li></li>
         </ul>
-      </div> */}
+      </div>
       <section className="context">
-        {/* <h1>ESPARTA</h1> */}
+        <h1>ESPARTA</h1>
         <div className="container py-5 h-100">
           <div className="row d-flex justify-content-center align-items-center h-100">
             <div className="col col-lg-6 mb-4 mb-lg-0">

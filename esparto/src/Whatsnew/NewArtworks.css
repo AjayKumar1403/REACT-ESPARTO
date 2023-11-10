@@ -1,23 +1,23 @@
 .new-artworks-container {
-    padding: 20px;
-  }
-  
-  .artworks-list {
-    display: flex;
-    flex-direction: column; /* Set flex-direction to column */
-    align-items: center; /* Center items horizontally */
-  }
-  
-  .artwork-item {
-    margin: 20px 0; /* Add margin between items */
-    text-align: center;
-  }
-  
-  .artwork-image {
-    width: 700px;
-    height: 500px;
-    object-fit: cover;
-    border-radius: 10px;
-  }
-  
-  /* Add additional styles as needed */
+  padding: 20px;
+}
+
+.artworks-list {
+  display: flex;
+  flex-direction: column; /* Set flex-direction to column */
+  align-items: center; /* Center items horizontally */
+}
+
+.artwork-item {
+  margin: 20px 0; /* Add margin between items */
+  text-align: center;
+}
+
+.artwork-image {
+  width: 700px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Add additional styles as needed */

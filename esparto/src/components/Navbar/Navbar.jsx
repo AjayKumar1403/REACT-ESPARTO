@@ -13,14 +13,11 @@ const Navbar = () => {
         <img src={logo} alt="Logo" className="logo-image" />
       </div>
       <div className="routes">
-        <Link to={'/login'}>
-          <h1>Login</h1>
-        </Link>
-        <Link to={'/register'}>
-          <h1>Register</h1>
+        <Link to={'/'}>
+          <h1>Logout</h1>
         </Link>
         <Link to={'/userProfile'}>
-          <h1>User Profile</h1>
+          <h1>My Profile</h1>
         </Link>
       </div>
     </div>

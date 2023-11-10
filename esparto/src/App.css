@@ -1,9 +1,3 @@
 .parent-container {
   display: flex;
 }
-
-.home {
-  /* Add styles for the home component as needed */
-  margin-left: 20px; /* Adjust the margin according to your design */
-  flex: 1; /* Allow the home component to take up remaining space */
-}
