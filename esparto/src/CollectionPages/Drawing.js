@@ -16,7 +16,7 @@ import './Collection.css';
       artist: 'Kevin Gray',
       price: '$850',
       description: 'Artmaple paint is made with health in mind. It is non-toxic, odorless, and environmentally conscious.',
-      imageUrl: 'Drawing2.jpeg', // Add the URL to the painting image
+      imageUrl: 'Drawing2.jpg', // Add the URL to the painting image
     },
     {
       id: 3,
@@ -32,7 +32,7 @@ import './Collection.css';
       artist: 'Paresh Nrshinga',
       price: '$2,50',
       description: 'Stunning art piece inspired by Jackson Pollock Black background',
-      imageUrl: 'Drawing4.jpeg', // Add the URL to the painting image
+      imageUrl: 'Drawing4.jpg', // Add the URL to the painting image
     },
     {
       id: 5,
@@ -40,7 +40,7 @@ import './Collection.css';
       artist: 'Skadi Engeln',
       price: '$2,930',
       description: 'The secret should be preserved, just like beauty, which perhaps lies especially within the denseness, and encryption, within the mystery.',
-      imageUrl: 'Drawing5.jpeg', // Add the URL to the painting image
+      imageUrl: 'Drawing5.jpg', // Add the URL to the painting image
     },
     {
       id: 6,
@@ -48,7 +48,7 @@ import './Collection.css';
       artist: 'Pol Ledent',
       price: '$1,82',
       description: 'My paintings are always inspired by my countryside I just hope the wiewers will find a peaceful feeling when they look at it.',
-      imageUrl: 'Drawing6.jpeg', // Add the URL to the painting image
+      imageUrl: 'Drawing6.jpg', // Add the URL to the painting image
     },
     {
       id: 7,
@@ -56,7 +56,7 @@ import './Collection.css';
       artist: 'Agnieszka Kozień',
       price: '$624',
       description: 'Original oil painting. Signed on the front. Ready to hang. No framing required. Edges painted white.',
-      imageUrl: 'Drawing7.jpeg', // Add the URL to the painting image
+      imageUrl: 'Drawing7.jpg', // Add the URL to the painting image
     },
     {
       id: 8,
@@ -72,7 +72,7 @@ import './Collection.css';
       artist: 'KAROLINA ŚWIDECKA',
       price: '$2,455',
       description: 'Liptovska Mara is a village with a large lake in Slovakia. I really like going there. Everything is so oldschool.',
-      imageUrl: 'Drawing9.jpeg', // Add the URL to the painting image
+      imageUrl: 'Drawing9.jpg', // Add the URL to the painting image
     }  
   ];
   
@@ -80,18 +80,18 @@ import './Collection.css';
     return (
       <>
         <h1>Drawings</h1>
-        <div className="painting-container">
-          {paintingsData.map((painting) => (
-            <div key={painting.id} className="painting-card">
+        <div className="paintings-container">
+          {DrawingsData.map((drawing) => (
+            <div key={drawing.id} className="painting-card">
               <img
-                src={painting.imageUrl}
-                alt={painting.title}
+                src={drawing.imageUrl}
+                alt={drawing.title}
                 className="painting-image"
               />
-              <h2>{painting.title}</h2>
-              <p>Artist: {painting.artist}</p>
-              <p>Description: {painting.description}</p>
-              <p>Price: {painting.price}</p>
+              <h2>{drawing.title}</h2>
+              <p>Artist: {drawing.artist}</p>
+              <p>Description: {drawing.description}</p>
+              <p>Price: {drawing.price}</p>
             </div>
           ))}
         </div>
