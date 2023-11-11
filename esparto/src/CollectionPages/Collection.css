@@ -1,8 +1,14 @@
+h1{
+  text-align: center;
+  color: beige;
+}
+
 .paintings-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 20px;
+  background-color: lightcyan;
 }
 
 .painting-card {
