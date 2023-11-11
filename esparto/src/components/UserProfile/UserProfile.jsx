@@ -43,8 +43,8 @@ function UserProfile() {
                       className="img-fluid my-5"
                       style={{ width: '150px', borderRadius: '5px' }}
                     />
-                    <h5>Artist.name</h5>
-                    <p>Artist.address</p>
+                    <h5>Varsha Kalvakuntla</h5>
+                    <p>1115 N College Drive</p>
                     <i className="far fa-edit mb-5"></i>
                   </div>
                   <div className="col-md-8">
@@ -54,11 +54,11 @@ function UserProfile() {
                       <div className="row pt-1">
                         <div className="col-6 mb-3">
                           <h6>Email</h6>
-                          <p className="text-muted">Artist.email</p>
+                          <p className="text-muted">Varsha@maryvillemodel.com</p>
                         </div>
                         <div className="col-6 mb-3">
                           <h6>Salary</h6>
-                          <p className="text-muted">Artist.salary</p>
+                          <p className="text-muted">$9999999999</p>
                         </div>
                       </div>
                       <h6>ArtWorks</h6>
@@ -66,11 +66,11 @@ function UserProfile() {
                       <div className="row pt-1">
                         <div className="col-6 mb-3">
                           <h6>Work</h6>
-                          <p className="text-muted">Artist.work</p>
+                          <p className="text-muted">Artist</p>
                         </div>
                         <div className="col-6 mb-3">
                           <h6>Status</h6>
-                          <p className="text-muted">Artist.status</p>
+                          <p className="text-muted">Online</p>
                         </div>
                       </div>
                       <div className="d-flex justify-content-between mt-4">
