@@ -75,4 +75,4 @@ const collage = () => {
   );
 };
 
-export default Collage;
+export default collage;
