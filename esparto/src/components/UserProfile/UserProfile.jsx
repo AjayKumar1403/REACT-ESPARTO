@@ -58,7 +58,7 @@ function UserProfile() {
                         </div>
                         <div className="col-6 mb-3">
                           <h6>Salary</h6>
-                          <p className="text-muted">$9999999999</p>
+                          <p className="text-muted">$10000</p>
                         </div>
                       </div>
                       <h6>ArtWorks</h6>
