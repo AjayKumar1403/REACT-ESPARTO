@@ -12,7 +12,7 @@ const ArtistPage = () => {
       title: 'Artwork 1',
       description: 'Beautiful artwork description 1.',
       basePrice: 100,
-      image: '/img2.jpg',
+      image: '/Drawing3.jpeg',
       bidders: ['Bidder1', 'Bidder2'],
     },
     {
@@ -20,7 +20,7 @@ const ArtistPage = () => {
       title: 'Artwork 2',
       description: 'Amazing artwork description 2.',
       basePrice: 150,
-      image: '/img2.jpg',
+      image: '/Drawing2.jpg',
       bidders: ['Bidder3', 'Bidder4'],
     },
   ]);

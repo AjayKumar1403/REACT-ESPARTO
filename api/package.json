@@ -1,0 +1,11 @@
+{
+  "name": "esparta-api",
+  "version": "1.0.0",
+  "description": "api with all the end-points",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "esparta",
+  "license": "ISC"
+}
