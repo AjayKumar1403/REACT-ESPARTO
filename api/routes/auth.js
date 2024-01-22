@@ -22,7 +22,22 @@ router.post("/register", async (req, res) => {
 });
 
 
-//LOGIN - Varsha
+//LOGIN 
+
+router.post('/login', async (req, res) => {
+  try{
+      console.log("when clicked on login "+ JSON.stringify(req.body, null, 2));
+      
+      const user = await User.findOne(
+
+          {
+              username: req.body.username,
+              
+          }
+         
+       );
+
+});
 
 const accessToken = jwt.sign(
     {
@@ -35,7 +50,5 @@ const accessToken = jwt.sign(
     console.log(user);
     const { password, ...others } = user._doc;  
     res.status(200).json({...others, accessToken});
-
-
 
 module.exports = router;
