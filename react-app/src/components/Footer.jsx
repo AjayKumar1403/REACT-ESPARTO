@@ -1,11 +1,11 @@
 import {
-    Facebook,
-    Instagram,
-    MailOutline,
-    Phone,
-    Pinterest,
-    Room,
-    Twitter,
+  Facebook,
+  Instagram,
+  MailOutline,
+  Phone,
+  Pinterest,
+  Room,
+  Twitter,
 } from "@material-ui/icons";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
@@ -118,7 +118,7 @@ import styled from "styled-components";
             <ListItem > <Link  to="/category/PAINTINGS">PAINTINGS</Link></ListItem>
             {/* <ListItem> <Link  to="/category/PHOTOGRAPHS">PHOTOGRAPHS</Link></ListItem> */}
             <ListItem ><Link to="/category/COLLAGES">COLLEGAS</Link></ListItem>
-            <ListItem> <Link  to="/my-profileMy">MY ACCOUNT</Link> </ListItem>
+            <ListItem> <Link  to="/my-profile">MY ACCOUNT</Link> </ListItem>
             <ListItem><Link to="/category/POTRAITS">POTRAITS</Link></ListItem>
             <ListItem><Link to="/category/OIL%20PAINTS">OIL PAINTINGS</Link></ListItem>
             <ListItem><Link to="/category/ABSTRACT%20PAINTS">ABSTRACT PAINTS</Link></ListItem>

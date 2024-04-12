@@ -16,6 +16,7 @@ import UserProfile from './components/UserProfile';
 import EditProfile from './components/EditProfile';
 import Checkout from './components/Checkout';
 import MyOrders from './components/myorders';
+import Mysales from './components/MySales';
 
 const App = () => {
   return (
@@ -35,6 +36,7 @@ const App = () => {
         <Route path="/product/:productId" element={<ProductDetail />} />
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/myorders" element={<MyOrders/>} />
+        <Route path="/mysales" element={<Mysales/>} />
       </Routes>
     </Router>
   );

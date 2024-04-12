@@ -13,10 +13,7 @@ function ProductDetail() {
 
     const [product, setproduct] = useState();
     const [ratingSubmitted, setRatingSubmitted] = useState(false);
-    const [currentRating, setCurrentRating] = useState(() => {
-        const storedRating = localStorage.getItem('currentRating');
-        return storedRating ? parseInt(storedRating, 10) : 0;
-    });
+    const [currentRating, setCurrentRating] = useState(0);
     const [msg, setmsg] = useState('');
     const [msgs, setmsgs] = useState([]);
     const [user, setuser] = useState();
@@ -32,9 +29,19 @@ function ProductDetail() {
     };
 
     useEffect(() => {
-        // Store currentRating in local storage
-        localStorage.setItem('currentRating', currentRating.toString());
-    }, [currentRating]);
+        const fetchRating = async () => {
+            try {
+                const userId = localStorage.getItem('userId');
+                const response = await axios.post(`${API_URL}/fetchrating`, { userId, productId });
+                setCurrentRating(response.data.rating.ratingValue);
+                console.log(response.data.rating);
+            } catch (error) {
+                console.error('Error fetching rating:', error);
+            }
+        };
+
+        fetchRating();
+    }, [productId]);
 
     useEffect(() => {
         socket = io(API_URL);
@@ -148,10 +155,10 @@ function ProductDetail() {
             <div className="d-flex" style={{ paddingLeft: '40px', paddingRight: '80px' }}>
                 {product &&
 
-                    <div className="flex-grow-1" style={{ paddingTop: '10px'}}>
-                        <h3 style={{ paddingLeft: '10px'}} > Product Details  </h3>
+                    <div className="flex-grow-1" style={{ paddingTop: '10px' }}>
+                        <h3 style={{ paddingLeft: '10px' }} > Product Details  </h3>
                         <img width="400px" height="400px" src={API_URL + '/' + product.pimage} alt="" />
-                        
+
                         <h3>{product.pdesc}</h3>
                         <h3 className="m-2 price-text"> $ {product.price} /- </h3>
                         <p className="m-2"> {product.pname}  | {product.category} </p>
@@ -168,7 +175,7 @@ function ProductDetail() {
                     </div>
                 }
 
-                <div className="flex-grow-1" style={{ paddingTop: '40px'}}>
+                <div className="flex-grow-1" style={{ paddingTop: '40px' }}>
                     <div style={{ marginBottom: '10px', padding: '10px', border: '1px solid #ccc', borderRadius: '5px' }}>
                         <p>Rate this product:</p>
                         <div className="rating-stars">
@@ -186,8 +193,10 @@ function ProductDetail() {
                         <button onClick={handleRatingSubmit} className="submit-btn" style={{ marginTop: '10px', padding: '8px 16px', backgroundColor: '#007bff', color: '#fff', border: 'none', borderRadius: '5px', cursor: 'pointer' }}>Submit Rating</button>
                     </div>
                     {ratingSubmitted && <p className="rating-feedback">Rating submitted successfully!</p>}
-                    {averageRating !== null && (
+                    {averageRating !== null && averageRating !== undefined ? (
                         <p>Average Rating: {averageRating}</p>
+                    ) : (
+                        <p>No Ratings</p>
                     )}
                     CHATS
                     {msgs && msgs.length > 0 &&
