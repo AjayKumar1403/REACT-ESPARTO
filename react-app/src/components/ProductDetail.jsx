@@ -212,7 +212,7 @@ function ProductDetail() {
                     <button onClick={handleSend} className="btn btn-primary" style={buttonStyle}>SEND</button>
                     {product &&
                         <Link to={{ pathname: '/checkout' }} style={{ ...buttonStyle, textDecoration: 'none', backgroundColor: 'green', padding: '10px 20px' }}>
-                            Checkout Now
+                           Add to Cart & Checkout Now
                         </Link>
                     }
                 </div>

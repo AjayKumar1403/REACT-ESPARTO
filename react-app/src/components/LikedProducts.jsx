@@ -1,11 +1,11 @@
-import { useEffect, useState } from "react";
-import Header from "./Header";
-import { useNavigate, Link, useParams } from "react-router-dom";
 import axios from "axios";
-import Categories from "./Categories";
+import { useEffect, useState } from "react";
 import { FaHeart } from "react-icons/fa";
-import './Home.css';
+import { useNavigate, useParams } from "react-router-dom";
 import API_URL from "../constants";
+import Categories from "./Categories";
+import Header from "./Header";
+import './Home.css';
 
 
 function LikedProducts() {

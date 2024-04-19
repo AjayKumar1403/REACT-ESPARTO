@@ -1,4 +1,6 @@
+
 const mongoose = require('mongoose');
+
 
 let schema = new mongoose.Schema({
     pname: String,
@@ -170,7 +172,6 @@ module.exports.myProducts = (req, res) => {
         })
 
 }
-
 
 module.exports.deleteProduct = (req, res) => {
 

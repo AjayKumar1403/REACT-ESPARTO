@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+
 // Order Schema
 const orderSchema = new mongoose.Schema({
     user: {
@@ -91,3 +92,16 @@ module.exports.getOrdersForUser = async (req, res) => {
         res.status(500).json({ message: 'Failed to fetch orders' });
     }
 };
+
+// Controller method to get orders for products with additional information
+module.exports.getOrdersForProducts = async (req, res) => {
+    try {
+        const productIds = req.body.productIds;
+        const orders = await Order.find({ product: { $in: productIds } }).populate('product').populate('user');
+        res.status(200).json(orders);
+    } catch (error) {
+        console.error('Error:', error);
+        res.status(500).json({ message: 'Failed to fetch orders for products' });
+    }
+};
+

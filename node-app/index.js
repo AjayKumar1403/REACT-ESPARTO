@@ -7,6 +7,8 @@ const http = require('http');
 const { Server } = require("socket.io");
 const productController = require('./controllers/productController');
 const userController = require('./controllers/userController');
+const orderController = require('./controllers/orderController');
+const ratingController = require('./controllers/ratingController');
 
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
@@ -43,6 +45,7 @@ app.get('/', (req, res) => {
 
 app.get('/search', productController.search)
 app.post('/like-product', userController.likeProducts)
+app.post('/edit-profile', upload.fields([{name : 'image'}]), userController.editProfile)
 app.post('/dislike-product', userController.dislikeProducts)
 app.post('/add-product', upload.fields([{ name: 'pimage' }, { name: 'pimage2' }]), productController.addProduct)
 app.post('/edit-product', upload.fields([{ name: 'pimage' }, { name: 'pimage2' }]), productController.editProduct)
@@ -55,6 +58,12 @@ app.post('/signup', userController.signup)
 app.get('/my-profile/:userId', userController.myProfileById)
 app.get('/get-user/:uId', userController.getUserById)
 app.post('/login', userController.login)
+app.post('/checkout', orderController.checkout)
+app.get('/getorders/:userId', orderController.getOrdersForUser)
+app.post('/save-rating', ratingController.saveRating);
+app.get('/get-average-rating/:productId', ratingController.getAverageRating);
+app.post('/fetchrating', ratingController.fetchRating);
+app.post('/getsales', orderController.getOrdersForProducts);
 
 let messages = [];
 

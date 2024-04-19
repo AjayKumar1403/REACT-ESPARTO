@@ -53,3 +53,22 @@ module.exports.getAverageRating = async (req, res) => {
         res.status(500).send({ message: 'Failed to calculate average rating' });
     }
 };
+
+// Fetch rating for a specific user and product
+module.exports.fetchRating = async (req, res) => {
+    try {
+        const { userId, productId } = req.body;
+
+        // Find rating for the given user and product
+        const rating = await Rating.findOne({ userId, productId });
+
+        if (rating) {
+            res.status(200).send({ rating });
+        } else {
+            res.status(404).send({ message: 'Rating not found for the user and product' });
+        }
+    } catch (error) {
+        console.error('Error:', error);
+        res.status(500).send({ message: 'Failed to fetch rating' });
+    }
+};

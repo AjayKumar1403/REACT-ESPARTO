@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Cart = (props) => {
   const { cartItems, addItem, removeItem } = props
@@ -60,7 +60,7 @@ const Cart = (props) => {
             <hr />
 
             <div className="row">
-              <button onClick={() => alert('Implement Checkout Later!')}>Checkout</button>
+              <button onClick={() => alert('Implement Checkout Later!')}>Add to Cart & Checkout</button>
             </div>
             
           </>
